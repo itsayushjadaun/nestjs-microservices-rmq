@@ -1,5 +1,5 @@
 import { Prop, Schema, SchemaFactory } from "@nestjs/mongoose";
-import { AbstractDocument } from "../../../../libs/common";
+import { AbstractDocument } from "../../../../libs/common/src";
 
 
 @Schema({ versionKey : false })
